@@ -1,0 +1,42 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin:0;
+  padding:0;
+}
+.container{
+  width:612px;
+  height:auto;
+  border:2px solid black;
+  display:flex;
+  flex-wrap:wrap;
+  float:left;
+}
+.item{
+  width:200px;
+  height: 200px;
+  border:2px solid black;
+}
+.mole{
+  background:aqua;
+}
+.red{
+  background:red ;
+}
+.yellow{
+  background:yellow;
+}
+
+.result{
+/*   border:2px solid black; */
+  display:flex;
+  justify-content:center;
+}
+#score{
+  padding-top:20%;
+  font-size:75px;
+  }
+
+/* #level{
+  float:right;
+} */
